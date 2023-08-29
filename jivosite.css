@@ -1,0 +1,29 @@
+/* ocultar o widget original - que não havia dois rótulos na tela*/
+#jivo_chat_widget{
+	display: none;
+}
+
+/* o estilo padrão - para mensagens offline se ninguém estiver online */
+#jivo_custom_widget{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	cursor: pointer;
+	z-index: 300000;
+	border-radius: 100%;	
+	width: 56px;	
+	height: 56px;
+	background-image: url(images/online.png);
+}
+
+/* ao passar o mouse, o rótulo deve ser deslocado para a direita em 3px */
+#jivo_custom_widget:hover{
+	opacity:0.7;
+}
+
+/* se houver operadores online - mostre outro rótulo*/
+#jivo_custom_widget.jivo_online{
+	width: 56px;	
+	height: 56px;
+	background-image: url(images/online.png);
+}
