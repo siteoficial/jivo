@@ -13,7 +13,7 @@
 	border-radius: 100%;	
 	width: 56px;	
 	height: 56px;
-	background-image: url(_/images/online.png);
+	background-image: url(https://raw.githubusercontent.com/siteoficial/jivo/main/images/online.png);
 }
 
 /* ao passar o mouse, o rótulo deve ser deslocado para a direita em 3px */
@@ -25,5 +25,5 @@
 #jivo_custom_widget.jivo_online{
 	width: 56px;	
 	height: 56px;
-	background-image: url(_/images/online.png);
+	background-image: url(https://raw.githubusercontent.com/siteoficial/jivo/main/images/online.png);
 }
